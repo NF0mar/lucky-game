@@ -1,0 +1,56 @@
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.env
+
+# Ignore build and log files
+dist/
+build/
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore frontend build outputs
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Ignore backend dependencies and environment files
+backend/node_modules/
+backend/.env
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore temporary files and editor backups
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Ignore cache files
+.cache/
+.next/
+
+# Ignore any uploaded files or database files (if applicable)
+uploads/
+database/
+*.sqlite3
+*.db
+
+# Ignore specific config files
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
